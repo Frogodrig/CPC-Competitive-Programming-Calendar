@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    background: rgb(40, 39, 39);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 0 16px;
+  }
+
+  header {
+    background-color: #b9b39d;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 5px 20px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    color: #ccc;
+    text-align: left;
+  }
+
+  .header-links:link, .header-links:active, .header-links:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+    float: right;
+  }
+
+  .header-links :hover {
+    color: black;
+  }
+
+  .contest-box {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    padding: 10px;
+    width: 50%;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contest-box:hover {
+    background: wheat;
+  }
+
+  .contest-link:link, .contest-link:hover, .contest-link:active, .contest-link:visited {
+    text-decoration: none;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    padding: 5px;
+    width: 6rem;
+  }
+
+  .right {
+    display: flex;
+    float: right;
+  }
+
+  .contest-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow-y: scroll;
+    align-items: flex-end;
+    margin-top: -32%;
+  }
+
+  .contest-container :last-child {
+    margin-bottom:0.5%;
+  }
+  
+  .filter {
+    width: 30%;
+    height: max-content; 
+    margin-left: 2%;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .filter-button {
+    font-size: 24px;
+    background-color: #fff;
+    border-color: #a38a50cc;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    min-width: 6%;
+    transition: all 0.5s;
+  }
+
+  .filter-button:hover {
+    background-color: #a38a50cc;
+    border-color: #fff;
+    box-shadow: 0 5px 20px #a38a50cc;
+    color: #fff;
+  }
+
+  .today-button {
+    font-size: 24px;
+    margin-top: -2%;
+    min-width: 6%;
+    text-align: center;
+    background-color: #fff;
+    border-color: #a38a50cc;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    transition: all 0.5s;
+  }
+
+  .today-button:hover {
+    background-color: #a38a50cc;
+    border-color: #fff;
+    box-shadow: 0 5px 20px #a38a50cc;
+    color: #fff;
+  }
+
+  .render-button {
+    margin-top: -1.9%;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .render-button:hover {
+    background-color: #a38a50cc;
+    box-shadow: 0 9px #fff;
+    color: #fff;
+  }
+
+  .render-button:active {
+    background-color: #a38a50cc;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .github-button {
+    margin-bottom: 20%;
+  }
+
+  .github-button button {
+    background-color: #fff;
+    border-color: #000000cc;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    min-width: 8%;
+  }
+
+  .github-button button:hover {
+    background-color: #a38a50cc;
+    border-color: #fff;
+    box-shadow: 0 5px 20px #a38a50cc;
+  }
+
+  .vertical-nav {
+    min-width: 14rem;
+    width: 14rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.8s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inactive {
+    margin-left:-14rem;
+  }
+
+  .whenBarActive {
+    width: calc(100% - 14rem);
+    margin-left: 14rem;
+  }
+
+  .whenBarInActive {
+    width: 100%;
+  }
+  
+  
+.container{
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  width: 10%;
+  background-color: #fff;
+  padding: 5px 20px 5px 20px;
+  min-width: 80%;
+  border-color: #04AA6D;
+  color: green;
+}
+
+.container input {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-top: 3px;
+}
+
+label {
+  padding: 5px 20px 5px 20px;
+  min-width: 70%;
+  border-color: #04AA6D;
+  color: green;
+  background-color: white;
+}
+
+.container:hover {
+  background-color: #04AA6D;
+  color: #fff;
+  box-shadow: 0 5px 20px #04AA6D;
+}
+
+.hide {
+  animation: slide-out 1s ease-in ;
+  margin-left: -80rem;
+  margin-top: -3%;
+}
+
+.show {
+  animation: slide-in 1s ease-out ;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: -80rem;
+    margin-top: -3%;
+  }
+
+  to {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  to {
+    margin-left: -80rem;
+    margin-top: -3%;
+  }
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: wheat;
+}
