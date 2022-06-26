@@ -1,6 +1,6 @@
 # CP-C: Competitive Programming Calendar
 
-A React app that helps you to get the schedule of all well known competitive programming platforms at ONE SINGLE PLACE. 
+A React app that helps you get the schedule of all well known competitive programming platforms at ONE SINGLE PLACE. 
 
 ## Preview of the project
 ![Image](https://user-images.githubusercontent.com/72153510/175822164-a82890fe-d92c-4318-ae17-d652a807644f.png)
