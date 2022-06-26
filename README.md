@@ -1,4 +1,4 @@
-#CP-C: Competitive Programming Calendar
+# CP-C: Competitive Programming Calendar
 
 A React app that helps you to get the schedule of all well known competitive programming platforms at ONE SINGLE PLACE. 
 
