@@ -6,7 +6,11 @@ A React app that helps you to get the schedule of all well known competitive pro
 ![Image](https://user-images.githubusercontent.com/72153510/175822164-a82890fe-d92c-4318-ae17-d652a807644f.png)
 
 
-https://user-images.githubusercontent.com/72153510/175822432-87ee7914-9cff-4f26-97f4-fc9f757e3d95.mp4
+
+
+https://user-images.githubusercontent.com/72153510/175822498-063d6374-d0fd-4104-bcd2-f31199877944.mp4
+
+
 
 
 # Detailed Description
