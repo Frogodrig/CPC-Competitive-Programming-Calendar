@@ -25,8 +25,8 @@ https://user-images.githubusercontent.com/72153510/175822498-063d6374-d0fd-4104-
 - Nearly all famous platforms are supported.
 
 # What's Next
--Improve the UI and possibly add some animations.
--Publish this as an extension on the Chrome store.
+- Improve the UI and possibly add some animations.
+- Publish this as an extension on the Chrome store.
 
 ## Supported Platforms
 1) Atcoder
